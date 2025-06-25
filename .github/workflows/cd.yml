@@ -4,7 +4,7 @@ on:
 
 jobs:
   tests:
-    name: Build and Push
+    name: Deploy
     runs-on: ubuntu-latest
 
     permissions:
