@@ -8,6 +8,22 @@ jobs:
   #   runs-on: ubuntu-latest
 
   #   # This part
+  # jobs:
+  #   deploy:
+  #     name: Deploy
+  #     runs-on: ubuntu-latest
+
+  #     # This part
+  #     env:
+  #       DATABASE_URL: ${{ secrets.DATABASE_URL }}
+
+  #   tests:
+  #     name: Deploy
+  #     runs-on: ubuntu-latest
+
+  #     permissions:
+  #       contents: "read"
+  #       id-token: "write"
 
   tests:
     name: Deploy
